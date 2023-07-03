@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "target": "es5",
+    "module": "ES6",
+    "moduleResolution": "classic",
+    "target": "ES6",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,

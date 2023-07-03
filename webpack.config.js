@@ -20,6 +20,9 @@ module.exports = {
     resolve: {
         extensions: ['.tsx', '.ts', '.js'],
     },
+    optimization: {
+        minimize: false
+    },
     output: {
         filename: 'try-it-out.min.js',
         path: path.resolve(__dirname, 'dist')
